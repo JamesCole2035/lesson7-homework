@@ -1,0 +1,49 @@
+$colorFooter: rgb(102, 102, 102)
+$colorBlack: #000000
+$colorButton: #228b22
+@mixin Title($h, $f)
+    height: $h
+    line-height: $h
+    font-size: $f
+.footer
+    bottom: 0
+    left: 0
+    width: 100%
+    background-color: $colorFooter
+    height: auto
+.form
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 50%
+    height: auto
+    &__input
+        margin: 5px auto
+        width: 75%
+        @include Title(35px, 16px)
+        border-radius: 5px        
+        &:first-child
+            margin-top: 10px
+    &__button
+        outline: none
+        margin: 10px auto
+        width: 80%
+        @include Title(35px, 16px)
+        background-color: $colorButton
+        border: 1px solid $colorBlack
+        border-radius: 5px
+        color: #ffffff
+        text-decoration: none
+    &__output
+        width: 40%
+        height: 100px
+        margin: auto auto
+        font-size: 16px
+        color: black
+        background-color: whitesmoke
+        border-radius: 6px
+        border-top: 2px solid $colorBlack
+        border-left: 2px solid $colorBlack
+        -webkit-box-shadow: inset -5px -5px 20px 0px rgba(0,0,0,0.75)
+        -moz-box-shadow: inset -5px -5px 20px 0px rgba(0,0,0,0.75)
+        box-shadow: inset -5px -5px 20px 0px rgba(0,0,0,0.75)
