@@ -6,7 +6,7 @@ module.exports = function(grunt){
             },
             dist: {
                 src: ['./dist/css/*.css'],
-                dest: './dist/css/style.css'
+                dest: './dist/css/styles.css'
             },
         },
         sass: {
