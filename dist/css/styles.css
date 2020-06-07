@@ -1,0 +1,30 @@
+@import "./main.css";
+@import "./menu.css";
+@import "./sidebar.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./reset.css";
+html, body {
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+.wrapper {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.size {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.size_black {
+  background-color: #000;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */

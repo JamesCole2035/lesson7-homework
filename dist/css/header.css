@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  background: #ffffff;
+  height: 75px;
+}
+.header__title {
+  line-height: 75px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  height: 75px;
+  margin: auto auto;
+}
+
+/*# sourceMappingURL=header.css.map */

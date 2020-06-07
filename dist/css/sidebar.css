@@ -1,0 +1,25 @@
+.sidebar {
+  min-width: 200px;
+}
+.sidebar ul li {
+  list-style: none;
+  margin: 5px;
+  border-bottom: 1px solid #ffffff;
+}
+.sidebar__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.sidebar__title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.block {
+  background-color: #cacaca;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

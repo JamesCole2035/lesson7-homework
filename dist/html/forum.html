@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>тестовый сайт</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="size">
+            <h1 class="header__title">
+				Послушайте аудио да посмотрите ещё видео
+			</h1>           
+        </div>
+    </header>
+    <div class="menu">
+        <div class="size">
+            <a class="menu__link" href="./index.html">Главная</a>
+            <a class="menu__link" href="./forum.html">Форум</a>
+            <a class="menu__link" href="./audio.html">Audio</a>
+            <a class="menu__link" href="./video.html">Video</a>
+        </div>
+    </div>
+        <div class="size">
+            <div class="main">                
+				<div class="error" id="01">
+                    <img class="error__image" src="../img/page not found.gif" alt="Ничего нет. 404" height="320" width="640">
+                    <h2 class="error__title">Нет ничего. Заходите завтра.</h2>
+                    <h2 class="error__title">Bye-bye.</h2>	
+				</div>
+            </div>
+            
+        </div>
+    <footer class="footer">
+        <div class="size">
+			<form class="form" action="index.html" method="GET">				
+                <input type="text" name="name" id="name" placeholder="Ваше имя" class="form__input">
+                <input type="text" name="surname" id="surname" placeholder="Ваша фамилия" class="form__input">
+				<input type="text" name="email" id="email" placeholder="Ваш email" class="form__input">
+                <input type="button" value="ОТПРАВИТЬ" class="form__button" name="button" id="button"></input>
+			</form>
+			<div class="form__output" id="form__output">
+			</div>
+        </div>
+    </footer>
+</div>    
+</body>
+<script src="../js/script.js"></script>
+</html>

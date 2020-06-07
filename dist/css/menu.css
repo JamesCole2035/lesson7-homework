@@ -1,0 +1,17 @@
+.menu {
+  background-color: #666666;
+  height: 60px;
+  margin-bottom: 40px;
+}
+.menu__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  margin-right: 20px;
+  color: white;
+}
+.menu .size {
+  display: block;
+}
+
+/*# sourceMappingURL=menu.css.map */

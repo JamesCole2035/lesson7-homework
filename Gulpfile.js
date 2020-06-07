@@ -4,7 +4,6 @@ const gulp = require('gulp'),
     watch = require('gulp-watch'),
     autoprefixer = require('gulp-autoprefixer');
 
-
 gulp.task('sass', function(){
     return gulp.src(['./src/sass/**/*.sass', './src/sass/**/*.scss'])
         .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
