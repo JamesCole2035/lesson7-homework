@@ -12,7 +12,3 @@ run sass (task with autoprefixer)
 run html (for html files)
 run browser (browserSync)
 run watch (reload after changes)
-<<<<<<< HEAD
-=======
-
->>>>>>> 1db0a36e121422235a56087edc2a9e33662823ea
